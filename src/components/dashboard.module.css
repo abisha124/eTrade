@@ -1,0 +1,350 @@
+.dashboardWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;              
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: -5px 0 25px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.4s ease forwards;
+  border-radius: 10px 0 0 10px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.sidebar {
+  width: 35%;
+  background: #fdfdfd;
+  border-right: 1px solid #ddd;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.userInfo {
+  text-align: center;
+}
+
+.userPhoto {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.userInfo h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.userInfo p {
+  font-size: 14px;
+  color: #666;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.menu li {
+  padding: 14px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.menu li:hover,
+.menu li.active {
+  background-color: #eef1ff;
+  font-weight: 600;
+}
+
+.cartButtons {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.tabInner h3{
+  padding-bottom: 20px;
+}
+.cartContainer {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.cartItem:hover {
+  transform: translateY(-2px);
+}
+
+.productImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.productDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.productDetails h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.productDetails p.price {
+  font-size: 15px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.cartActions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.cardButton {
+  padding: 8px 14px;
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cardButton:hover {
+  background-color: #3b5bdb;
+  transform: translateY(-1px);
+}
+
+.emptyText {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: 50px;
+}
+
+.addressSection {
+  margin-bottom: 20px;
+}
+
+.addressSection label {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.addressCard {
+  position: relative; 
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #f9f9f9;
+  font-size: 14px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.addressCard:hover {
+  border-color: #4c6ef5;
+  background-color: #eef3ff;
+}
+
+.selectedAddress {
+  border-color: #4c6ef5;
+  background-color: #dbe4ff;
+}
+
+.addressCard .deleteBtn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: #f33;
+  border: none;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.addressCard .deleteBtn:hover {
+  background: #d00;
+}
+
+.newAddressCard {
+  width: 100%; 
+  margin-top: 10px; 
+}
+
+.newAddressCard input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.newAddressCard input:focus {
+  outline: none;
+  border-color: #4c6ef5;
+  box-shadow: 0 0 5px rgba(76, 110, 245, 0.3);
+}
+
+
+.content {
+  flex: 1;
+  background: #fafafa;
+  padding: 25px;
+  overflow-y: auto;
+  border-radius: 0 10px 10px 0;
+}
+.tabInner {
+  padding: 20px;
+}
+.confirmWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.confirmBtn {
+  background-color: #5a5afc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 15px;
+ 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.confirmBtn:hover {
+  background-color: #4545d6;
+  transform: translateY(-1px);
+}
+
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.item span {
+  flex: 1;
+  font-size: 15px;
+}
+
+.item button {
+  background-color: #5a5afc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.item button:hover {
+  background-color: #4545d6;
+}
+
+
+.emptyText {
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.statusBadge {
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+}
+
+
+.onprocess {
+  background-color: #4c6ef5; 
+}
+
+.shipped {
+  background-color: #f59f00; 
+}
+
+.delivered {
+  background-color: #37b24d; 
+}
+
+
+.statusSelect {
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.orderDate {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}

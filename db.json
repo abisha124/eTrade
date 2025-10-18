@@ -1,0 +1,222 @@
+{
+  "categories": [
+    { "id": 1, "name": "Mobiles" },
+    { "id": 2, "name": "Computers" },
+    { "id": 3, "name": "Accessories" },
+    { "id": 4, "name": "Laptops" },
+    { "id": 5, "name": "Monitors" },
+    { "id": 6, "name": "Cameras" },
+    { "id": 7, "name": "Mouses" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Accessories",
+      "price": 99,
+      "stock": 5,
+      "rating": 4,
+      "image": "/images/wireless.png"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone X",
+      "category": "Mobiles",
+      "price": 499,
+      "stock": 0,
+      "rating": 5,
+      "image": "/images/appx.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Laptop Pro",
+      "category": "Laptops",
+      "price": 999,
+      "stock": 3,
+      "rating": 4,
+      "image": "/images/lappro.jpg"
+    },
+    {
+      "id": 4,
+      "name": "DSLR Camera",
+      "category": "Cameras",
+      "price": 799,
+      "stock": 2,
+      "rating": 5,
+      "image": "/images/dslr.png"
+    },
+    {
+  "id": 5,
+  "name": "Gaming Keyboard",
+  "category": "Accessories",
+  "price": 59,
+  "stock": 8,
+  "rating": 4,
+  "image": "/images/key.png"
+},
+{
+  "id": 6,
+  "name": "27-inch Monitor",
+  "category": "Monitors",
+  "price": 299,
+  "stock": 4,
+  "rating": 5,
+  "image": "/images/mon.png"
+},
+{
+  "id": 7,
+  "name": "Wireless Mouse",
+  "category": "Mouses",
+  "price": 29,
+  "stock": 10,
+  "rating": 4,
+  "image": "/images/mouse.png"
+},
+{
+  "id": 8,
+  "name": "Laptop Stand",
+  "category": "Laptops",
+  "price": 39,
+  "stock": 6,
+  "rating": 4,
+  "image": "/images/stand.png"
+},
+{
+      "id": 9,
+      "name": "Bluetooth Speaker",
+      "category": "Speakers",
+      "price": 79,
+      "stock": 7,
+      "rating": 4,
+      "image": "/images/blue.png"
+    },
+    {
+      "id": 10,
+      "name": "Smartwatch Pro",
+      "category": "Mobiles",
+      "price": 199,
+      "stock": 5,
+      "rating": 4,
+      "image": "/images/smart.png"
+    },
+    {
+      "id": 11,
+      "name": "Gaming Laptop",
+      "category": "Laptops",
+      "price": 1299,
+      "stock": 2,
+      "rating": 5,
+      "image": "/images/gaming.png"
+    },
+    {
+      "id": 12,
+      "name": "Noise Cancelling Earbuds",
+      "category": "Accessories",
+      "price": 89,
+      "stock": 9,
+      "rating": 4,
+      "image": "/images/earbuds.png"
+    },
+    {
+      "id": 13,
+      "name": "Action Camera",
+      "category": "Cameras",
+      "price": 249,
+      "stock": 3,
+      "rating": 4,
+      "image": "/images/action.png"
+    },
+    {
+      "id": 14,
+      "name": "Desktop PC",
+      "category": "Computers",
+      "price": 699,
+      "stock": 2,
+      "rating": 4,
+      "image": "/images/pc.png"
+    },
+    {
+      "id": 15,
+      "name": "VR Headset",
+      "category": "Accessories",
+      "price": 399,
+      "stock": 4,
+      "rating": 5,
+      "image": "/images/vr.png"
+    },
+    {
+      "id": 16,
+      "name": "Smart Thermostat",
+      "category": "Accessories",
+      "price": 149,
+      "stock": 6,
+      "rating": 4,
+      "image": "/images/thermostat.png"
+    },
+    {
+      "id": 17,
+      "name": "Portable Charger",
+      "category": "Accessories",
+      "price": 49,
+      "stock": 10,
+      "rating": 4,
+      "image": "/images/charger.png"
+    },
+    { 
+      "id": 18, 
+      
+      "name": "Webcam HD", 
+      "category": "Cameras", 
+      "price": 89, 
+      "stock": 5, 
+      "rating": 4, 
+      "image": "/images/webcam.png" 
+    },
+    {
+      "id": 19,
+      "name": "Gaming Monitor",
+      "category": "Monitors",
+      "price": 399,
+      "stock": 3,
+      "rating": 5,
+      "image": "/images/gamingmon.png"
+    },
+    {
+  "id": 20,
+  "name": "Smart Doorbell",
+  "category": "Accessories",
+  "price": 129,
+  "stock": 5,
+  "rating": 4,
+  "image": "/images/doorbell.png"
+},
+{ "id": 21, 
+"name": "External Hard Drive", 
+"category": "Computers", 
+"price": 79, 
+"stock": 6,
+ "rating": 4, 
+ "image": "/images/drive.png" 
+},
+ {
+   "id": 22,
+  "name": "Mechanical Mouse",
+   "category": "Mouses",
+    "price": 39,
+     "stock": 7,
+      "rating": 4,
+       "image": "/images/mouse2.png" 
+      },
+    {
+       "id": 23, 
+       "name": "Tablet X", 
+       "category": "Mobiles", 
+       "price": 299,
+        "stock": 5, 
+        "rating": 4,
+         "image": "/images/tab.png" 
+        }
+
+
+  ]
+}

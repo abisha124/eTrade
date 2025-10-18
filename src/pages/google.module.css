@@ -1,0 +1,52 @@
+.loginModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modalContent h3 {
+  margin-bottom: 20px;
+}
+
+.googleBtn, .cancelBtn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.googleBtn {
+  background-color: #4285F4;
+  color: white;
+  font-weight: bold;
+}
+
+.googleBtn:hover {
+  background-color: #357ae8;
+}
+
+.cancelBtn {
+  background-color: #ccc;
+}
+
+.cancelBtn:hover {
+  background-color: #999;
+}

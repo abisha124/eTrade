@@ -1,0 +1,164 @@
+.productSec {
+  padding: 60px 30px;
+  width:100%;
+  margin: 0 auto;
+}
+
+
+.subtitle {
+  color: #6c63ff;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 50px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imageWrapper {
+  position: relative;
+  background: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+
+.image {
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #0066ff;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.info {
+  padding: 16px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #facc15;
+  margin-bottom: 6px;
+}
+
+.brand {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1c1c1c;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.newPrice {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1c1c1c;
+}
+
+.oldPrice {
+  font-size: 14px;
+  color: #888;
+  text-decoration: line-through;
+}
+.getprod{
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 580px;
+
+}
+.buttons{
+  display:flex;
+  flex-direction: row;
+  gap:30px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.buttons button:hover{
+  background-color: rgb(226, 219, 219);
+  box-shadow: none;
+  color:black;
+}
+.buttons button{
+  height: 20px;
+  width:80px;
+  gap:20px;
+
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  
+  justify-content: center;
+  background-color: white;
+  border:none;
+  outline:none;
+  box-shadow:  1px 1px 3px 3px #eae9e9;
+}
+
+.getprod button{
+  height: 50px;
+  width:250px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  display:flex;
+  justify-content: center;
+  background-color: white;
+  border:none;
+  outline:none;
+  box-shadow:  1px 1px 3px 3px #eae9e9;
+}
+.getprod button:hover{
+  background-color: antiquewhite;
+  box-shadow: none;
+  color:black;
+}
+

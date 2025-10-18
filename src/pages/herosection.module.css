@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head1{
+  width:98%;
+  padding-left: 25px;
+  padding-top: 70px;
+  align-items: center;
+  justify-items: space-between;
+
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background:  #fff7f3 ;
+    padding: 0px 60px;
+    max-height: 350px;
+    border-radius: 7px;
+    gap: 40px;
+     min-height: 400px;
+     padding-bottom: 100px;
+}
+.textContent{
+    max-width: 50%;
+}
+.deal{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff4d4f;
+    margin-bottom: 8px; 
+}
+.title{
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 16px 0;
+}
+
+.headsetImage {
+  max-width: 100%;
+  height:420px;
+  object-fit: contain;
+}
+.price {
+  font-size:20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.price span {
+  color: #ff4d4f;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.shopBtn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 16.5px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.watchimg{
+    height:80px;
+    width:50px;
+    margin-right: 50px;
+    margin-top: 250px;
+}
+.imageContainer {
+  max-width: 45%;
+  display: flex;
+  
+  justify-content: center;
+}

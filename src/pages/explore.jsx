@@ -8,7 +8,7 @@ export default function Explore({ search, sort }) {
   const [error, setError] = useState(null);
   const [visibleCount, setVisibleCount] = useState(8);
 
-  const { addToCart, addToWishlist } = useUser();
+  const { addToCart, addToWishlist } = useUser();//access to current use inf
 
   useEffect(() => {
     const fetchProducts = async () => {

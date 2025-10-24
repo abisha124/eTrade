@@ -15,6 +15,7 @@ export default function Cart() {
     confirmOrder,
   } = useUser();
 
+
   const [newAddress, setNewAddress] = useState("");
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Wishlist from "./Wishlist";
-import Cart from "./Cart";
-import Orders from "./Orders";
+import Wishlist from "./wishlist";
+import Cart from "./cart";
+import Orders from "./orders";
 import styles from "./dashboard.module.css";
 
 export default function Dashboard({ user, onLogout }) {

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./heroSection.module.css";
+import styles from "../pages/heroSection.module.css"
 import img from "../assets/headphone.png"
 import img1 from "../assets/watch.png"
 

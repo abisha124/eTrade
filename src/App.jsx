@@ -3,7 +3,7 @@ import { UserProvider } from "./context/usercontext";
 import React from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import HeroSection from "./pages/herosection";
+import HeroSection from "./pages/heroSection";
 import CategorySection from "./pages/categorysection";
 import Enhance from "./pages/enhance";
 import Explore from "./pages/explore";

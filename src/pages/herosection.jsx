@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./HeroSection.module.css";
-import img from "../assets/headphone.png"
+import styles from "./heroSection.module.css";
+import img from "../assets/Headphone.png"
 import img1 from "../assets/watch.png"
 
 export default function HeroSection() {

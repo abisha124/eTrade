@@ -2,13 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD2jydKIGa2dXIVFPk-urfhp2-IpPFvoHQ",
-  authDomain: "react-task-a9bf2.firebaseapp.com",
-  projectId: "react-task-a9bf2",
-  storageBucket: "react-task-a9bf2.firebasestorage.app",
-  messagingSenderId: "49336012197",
-  appId: "1:49336012197:web:fded5f724cc7dc1248ac4c",
-  measurementId: "G-790PSSSEBM"
+  apiKey: "AIzaSyBoeXtSRqAvxlFcCEDw2wlm1zgNnPyQP4c",
+  authDomain: "etrade-408b6.firebaseapp.com",
+  projectId: "etrade-408b6",
+  storageBucket: "etrade-408b6.firebasestorage.app",
+  messagingSenderId: "544988694987",
+  appId: "1:544988694987:web:d8397e3b055e5309224e4e"
 };
 
 const app = initializeApp(firebaseConfig);
